@@ -1,11 +1,12 @@
-##Git Intro
+## Git Intro
 
 Git is a version control software
--Keeps track of every change ever made to a software project
--Provides a collaboration tool when working in groups
--We host our git repositories on hosting site like Github/Gitlab
 
-##Central Version Control Software vs Distributed Control Software
+- Keeps track of every change ever made to a software project
+- Provides a collaboration tool when working in groups
+- We host our git repositories on hosting site like Github/Gitlab
+
+## Central Version Control Software vs Distributed Control Software
 
 Central: All of the project is stored in one central location that allows for no copies of the master file
 
@@ -14,99 +15,118 @@ Distributed: Each use has a copy of all versions of the master file locally on t
 Branching:
 a timeline of deviations of version of that master file that don't alter that master file/root branch
 
-##Git Commands:
-'git pull' is a combo of fetch and merge, it will get the latest changes from the remote repo
-git fetch will download all history from the remote tracking branch
-git add will add files to be commited
-You can use period (.) after git add (git add .) to add all of the changed files to be committed
-git commit -m "message will create a commit with a message
-Please write short but DESCRIPTIVE commits
-git push will upload your changes from your local machine to the remote repo
-git checkout -b name will create a new branch
+## Git Commands:
+
+`git pull` is a combo of fetch and merge, it will get the latest changes from the remote repo
+`git fetch` will download all history from the remote tracking branch
+`git add` will add files to be commited
+You can use period (.) after git add (`git add .`) to add all of the changed files to be committed
+`git commit -m <message> `will create a commit with a message
+
+- Please write short but DESCRIPTIVE commits
+  `git push` will upload your changes from your local machine to the remote repo
+  `git checkout -b <name>` will create a new branch
+
 Git cheat sheet:
 
 https://training.github.com/downloads/github-git-cheat-sheet.pdf
 
-SDLC (Software Development Lifecycle):
+## SDLC (Software Development Lifecycle):
+
 Outlines the process to plan, create, test, and deploy information systems and appliations
 
 SDLC Follows these 7 general steps:
-Requirements Phase
-Analysis Phase
-Design Phase
-Development Phase
-Testing Phase
-Integration and Deployment Phase
-Maintenance Phase
+
+- Requirements Phase
+- Analysis Phase
+- Design Phase
+- Development Phase
+- Testing Phase
+- Integration and Deployment Phase
+- Maintenance Phase
+
 There are are two main approaches to SDLC currently:
 
-Waterfall
-Agile
-Waterfall
-Waterfall is a linear approach, as you finish one stop you move onto the next, there is no going back
+- Waterfall
+- Agile
+
+## Waterfall
+
+Waterfall is a linear approach, as you finish one step you move onto the next, there is no going back
 
 Typical Timeline of Waterfall:
-Requirements: 2-4 weeks
-Planning: 2-4 weeks
-Design: 1-4 months
-Implementation: 6-12 months+
-Testing: 6 months, but actually ongoing
-Deployment: 1-3 weeks
-Maintenance: lifetime of the application
-Advantages of Waterfall
 
-Easy to manage workflow
-Well suited for small teams, or short term projects, that will not require and requirement chanfes
-Generally results in faster devilery of product
-Process and results can easily documented
-Easy to adapt to shifting teams since the steps are clearly laid out
-Disadvantages of Waterfall:
+- Requirements: 2-4 weeks
+- Planning: 2-4 weeks
+- Design: 1-4 months
+- Implementation: 6-12+ months
+- Testing: 6 months, but actually ongoing
+- Deployment: 1-3 weeks
+- Maintenance: lifetime of the application
 
-Very inflexible and inefficient
-Not ideal for large teams projects
-Testing does not begin until development is complete
-Agile
-Agile is an iterative approach, go through every step of the SDLC in 2 - 4 week sprints
+## Advantages of Waterfall
+
+- Easy to manage workflow
+- Well suited for small teams, or short term projects
+- Generally results in faster devilery of product
+- Process and results can easily be documented
+- Easy to adapt to shifting teams since the steps are clearly laid out
+
+## Disadvantages of Waterfall:
+
+- Very inflexible and inefficient
+- Not ideal for large teams projects
+- Testing does not begin until development is complete
+
+## Agile
+
+Agile development is an iterative methodology for software development that focuses on creating adaptive products. Projects take multiple iterations that each builds on the previous iteration and gradually approach the final product.
+
+You go through every step of the SDLC in 2 - 4 week sprints
 
 Agile is becoming the more widely accepted and utilized method of SDLC because of its core values
 
-Individuals and Interactions over processes and tools
-Working Software over comprehensive documentation
-Customer collaboration over contract negotiation
-Responding to change over following a plan
-Advantages vs Disadvantages
-Advantages of Agile:
+- Individuals and Interactions over processes and tools
+- Working Software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
 
-Client colaboration is generally regarded as positive
-Agile team cultures tend to stay more self-organized and motivated
-Overall quality of prodices is usually higher due to the iterative approach
-Less risk in development process due incremental nature of development
-Disadavantanges of Agile:
+## Advantages vs Disadvantages
 
-Not as useful for small development project
-Higher costs associated with the Agile workflow
-Development time can bloat if managed poorly, or requirements are not clear
-Requires more experienced memebers during the planning and management of projects
-Agile/Scrum Concepts
+## Advantages of Agile:
+
+- Client colaboration is generally regarded as positive
+- Agile team cultures tend to stay more self-organized and motivated
+- Overall quality of product is usually higher due to the iterative approach
+- Less risk in development process due to incremental nature of development
+
+## Disadavantanges of Agile:
+
+- Not as useful for small development project
+- Higher costs associated with the Agile workflow
+- Development time can bloat if managed poorly, or requirements are not clear
+- Requires more experienced members during the planning and management of projects
+
+## Agile/Scrum Concepts
+
 Scrum is the simplest Agile framework, it enforces ceremonies lead by a lead who ensures the team is following Scrum practices
 
-scrum
+## Scrum Artifacts
 
-Scrum Artifacts
-Product Owner: holds authority over project, a representative of the client/customer
-Scrum Master: the person who mediates all the meetings, and goes between client and team
-Project Backlog: holds all the current requirements for the project
-Sprint Backlog: requires that are to be completed in the current sprint
-User Story: an individual feature/requirement
-Epic: a group of related features that is broken down into multiple user stories
-Spring: a brief period of development, (between 2 and 4 weeks). which generally cumulates in a release of realated features
-Velocity: the sum of story points of all the user stories completed that week
-Story Pointing
+- Product Owner: holds authority over project, a representative of the client/customer
+- Scrum Master: the person who mediates all the meetings, and goes between client and team
+- Project Backlog: holds all the current requirements for the project
+- Sprint Backlog: requirements that are to be completed in the current sprint
+- User Story: an individual feature/requirement
+- Epic: a group of related features that is broken down into multiple user stories
+- Spring: a brief period of development, (2 - 4 weeks). which generally cumulates in a release of related features
+- Velocity: the sum of story points of all the user stories completed that week
+
+## Story Pointing
+
 Story pointing allows teams to keep track of the progress (velocity) of their sprint/project, and create burndown charts
 
-Burndown Charts: chart the amount of story points that been completed each day, vs the number of points remaining
-
-burndown
+Burndown Charts: A burndown chart shows the amount of work that has been completed in an epic or sprint, and the total work remaining. Burndown charts are used to predict your team's likelihood of completing their work in the time available.
 
 When assigning story points, it should be a team discussion, that includes consideration of Risk, Complexity, and Repetition of the user story
 
