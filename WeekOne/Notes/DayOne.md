@@ -68,7 +68,7 @@ Typical Timeline of Waterfall:
 
 - Easy to manage workflow
 - Well suited for small teams, or short term projects
-- Generally results in faster devilery of product
+- Generally results in faster delivery of product
 - Process and results can easily be documented
 - Easy to adapt to shifting teams since the steps are clearly laid out
 

@@ -1,0 +1,8 @@
+## How to get the size of an Array and an ArrayList
+- for arrays you do Array.length()
+- for araryLists is: arrayList.size()
+
+#### You cannot store primitives in list. We would need to use a wrapper class in order to achieve this
+
+- in Java all collections have to have elements of the same data type. This is because Java is a strict typed language.
+
