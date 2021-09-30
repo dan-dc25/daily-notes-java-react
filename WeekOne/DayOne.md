@@ -126,35 +126,40 @@ Scrum is the simplest Agile framework, it enforces ceremonies lead by a lead who
 
 Story pointing allows teams to keep track of the progress (velocity) of their sprint/project, and create burndown charts
 
-Burndown Charts: A burndown chart shows the amount of work that has been completed in an epic or sprint, and the total work remaining. Burndown charts are used to predict your team's likelihood of completing their work in the time available.
+Burndown Charts: A burndown chart shows the amount of work that has been completed in an epic or sprint, and the total work remaining. They are used to predict your team's likelihood of completing their work in the time available.
 
 When assigning story points, it should be a team discussion, that includes consideration of Risk, Complexity, and Repetition of the user story
 
 It is also recommended to use a number fib sequence:
 
-1: "trivial"
-2: "easy"
-3: "medium"
-5: "difficult"
-Scrum Ceremonies:
-meetings used during the life cylce of the sprint in a project
+- 1: "trivial"
+- 2: "easy"
+- 3: "medium"
+- 4: "difficult"
 
-Sprint Planning:
+## Scrum Ceremonies:
 
-Include the entire dev team, scrum master, product owner
-Happen before every sprint
-Determine the scope, goals, and metrics of the sprint
-Daily Standup/Scrum:
+Meetings used during the life cylce of the sprint in a project
 
-This is a daily meeting lead by the scrum master
-Takes aprox. 15 minutes
-Everyone tells what they are working on, what they are stuck on, and their goals for the day
-Sprint Review:
+## Sprint Planning:
 
-Everyone is invited to this meeting
-Review what the team accomplished at the end of a sprint
-Gain feedback
-Sprint Retro:
+- Include the entire dev team, scrum master, product owner
+- Happens before every sprint
+- Determines the scope, goals, and metrics of the sprint
+
+## Daily Standup/Scrum:
+
+- This is a daily meeting lead by the scrum master
+- Takes aprox. 15 minutes
+- Everyone tells what they are working on, what they are stuck on, and their goals for the day
+
+## Sprint Review:
+
+- Everyone is invited to this meeting
+- Review what the team accomplished at the end of a sprint
+- Gain feedback
+
+## Sprint Retro:
 
 Scrum master reviews the metric, and assess any ineffiencies
 Plan to make improvemtents as a team
