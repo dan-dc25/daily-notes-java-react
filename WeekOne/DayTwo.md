@@ -48,16 +48,17 @@ The only thing keeping Java from being completely Object Oriented,
 
 ## The primitives include:
 
-| Datatype |Size | Values |
-| boolean | 1 bit | true or false |
-| byte | 8 bit integer | -128 to 127 |
-| short | 16 bit integer | -32768 to 32767 |
-| int | 32 bit integer | ~-2 billion to 2 billion |
-| long | 64 bit integer | -2^64 to 2^64-1 |
-| float | 32 bit floating point | -3.40252357 x 10^34 to 1.40239846 x 10^-45 |
-| double | 64 bit floating point | -1.7976... x 10^308 to 4.9407... x 10^-324 |
-| char | 16 bit unicode character | |
-| String | Not a prim, but treated like one| |
+| Datatype | Size                             | Values                                     |
+| -------- | -------------------------------- | ------------------------------------------ |
+| boolean  | 1 bit                            | true or false                              |
+| byte     | 8 bit integer                    | -128 to 127                                |
+| short    | 16 bit integer                   | -32768 to 32767                            |
+| int      | 32 bit integer                   | ~-2 billion to 2 billion                   |
+| long     | 64 bit integer                   | -2^64 to 2^64-1                            |
+| float    | 32 bit floating point            | -3.40252357 x 10^34 to 1.40239846 x 10^-45 |
+| double   | 64 bit floating point            | -1.7976... x 10^308 to 4.9407... x 10^-324 |
+| char     | 16 bit unicode character         |                                            |
+| String   | Not a prim, but treated like one |                                            |
 
 Data type Default value
 boolean: false
